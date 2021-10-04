@@ -1,0 +1,501 @@
+@media screen and (max-width: 1173px) {
+    .scroll-list{
+        padding: 0 305px;
+    }
+    .icons{
+        position: relative;
+        left: 25rem;
+    }
+    p.message-one{
+        padding: 0 380px;
+        margin-top: 15px;
+    }
+    p.message-two{
+        padding: 0 380px;
+        margin-top: 15px;
+    }
+    p.message-three{
+        padding: 0 380px;
+        /* margin-top: 15px; */
+    }
+    p.message-four{
+        padding: 0 380px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 1158px) {
+    .about{
+        flex-direction: column-reverse;
+    }
+    .header{
+        text-align: center;
+        padding-right: 10rem;
+    }
+    .side-color{
+        margin-left: 42vw;
+    }
+    .tablet{
+        bottom: 15rem;
+    }
+    .first-image{
+        top: 67rem;
+    }
+    .second-image{
+        top: 67rem;
+    }
+    .third-image{
+        top: 67rem;
+    }
+}
+
+@media screen and (max-width: 1042px) {
+    .scrolls-one{
+        flex-direction: column;
+        text-align: center;
+        /* font-size: 25px; */
+    }
+    .scrolls-two{
+        flex-direction: column;
+        text-align: center;
+        /* font-size: 25px; */
+    }
+    .scrolls-three{
+        flex-direction: column;
+        text-align: center;
+        /* font-size: 25px; */
+    }
+    .scrolls-info-default{
+        margin-left: 0;
+    }
+    .faqs-info{
+        padding: 0 300px;
+    }
+    .icons{
+        position: relative;
+        left: 15rem;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .icons{
+        left: 10rem;
+    }
+    .faqs-info{
+        padding: 0 250px
+    }
+}
+
+@media screen and (max-width: 880px){
+    .nav-list{
+        display: none;
+    }
+    #hamburger{
+        display: block;
+        color: #EF233C;
+        cursor: pointer;
+    }
+    #overlay{
+        display: block;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        background-color: rgb(71, 71, 255);
+        background-color: rgba(53, 53, 100, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+    #overlay-content{
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        display: block;
+    }
+    #overlay a{
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: white;
+        display: block;
+    }
+    #overlay a:hover{
+        color: grey;
+    }
+    #overlay .closebtn{
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+    }
+    .scrolls-info-one{
+        margin-left: 200px;
+    }
+    .border{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icons{
+        left: 3rem;
+    }
+    #mail{
+        width: 30vw;
+    }
+    .btn-contact{
+        width: 12vw;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    #overlay a {
+        font-size: 20px
+    }
+    #overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+
+@media (max-width: 810px) {
+    .faqs-info{
+        padding: 0 150px;
+    }
+}
+
+@media screen and (max-width: 745px){
+    .first-image{
+        margin-left: 0;
+        top: 0;
+        position: absolute;
+        margin-top: 67rem;
+    }
+    .image-one{
+        width: 400px;
+        height: 250px;
+    }
+    .side-color-one{
+        width: 400px;
+    }
+    .second-image{
+        margin-left: 0;
+        top: 0;
+        position: absolute;
+        margin-top: 67rem;
+    }
+    .image-two{
+        width: 450px;
+        height: 300px;
+    }
+    .side-color-two{
+        width: 400px;
+    }
+    .third-image{
+        margin-left: 0;
+        top: 0;
+        position: absolute;
+        margin-top: 67rem;
+    }
+    .image-three{
+        width: 400px;
+        height: 250px;
+    }
+    .side-color-three{
+        width: 400px;
+    }
+    .scrolls-info-one{
+        margin-left: 120px;
+    }
+    .scrolls-info-two{
+        margin-left: 180px;
+    }
+    .navbars{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-lists{
+        flex-direction: column;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 734px){
+    .side-color{
+        width: 20rem;
+    }
+    .tablet{
+        bottom: 20rem;
+    }
+    .first-image{
+        margin-top: 72rem;
+    }
+    .second-image{
+        margin-top: 72rem;
+    }
+    .third-image{
+        margin-top: 72rem;
+    }
+}
+
+@media screen and (max-width: 594px){
+    .tablet{
+        width: 424px;
+        height: 274px;
+        bottom: 25rem;
+    }
+    img{
+        width: 400px;
+        height: 250px;
+    }
+    .scroll-list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    #one{
+        text-align: center;
+        padding: 30px 150px;
+    }
+    #two{
+        text-align: center;
+        padding: 30px 165px;
+    }
+    #three{
+        text-align: center;
+        padding: 30px 185px;
+    }
+    .scrolls-info-one{
+        margin-left: 60px;
+    }
+    .scrolls-info-two{
+        margin-left: 110px;
+    }
+    .first-image{
+        margin-top: 90rem;
+    }
+    .second-image{
+        margin-top: 90rem;
+    }
+    .third-image{
+        margin-top: 90rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .scroll-list{
+        padding: 0;
+    }
+    .firefox{
+        margin-top: 15px;
+    }
+    .first-image{
+        left: 1rem;
+    }
+    .second-image{
+        left: 1rem;
+    }
+    .third-image{
+        left: 1rem;
+    }
+    #mail{
+        width: 40vw;
+    }
+    .btn-contact{
+        width: 18vw;
+    }
+}
+
+@media screen and (max-width: 514px){
+    .tablet{
+        width: 374px;
+        height: 274px;
+        bottom: 29rem;
+    }
+    img{
+        width: 350px;
+        height: 250px;
+    }
+    .scroll-list{
+        padding: 0;
+    }
+    .faqs-info {
+        padding: 0 100px;
+    }
+}
+
+@media screen and (max-width: 458px){
+    .tablet{
+        bottom: 35rem;
+        right: 1rem;
+    }
+    .first-image{
+        left: 0rem;
+        margin-left: -30px;
+        margin-top: 97rem;
+    }
+    .second-image{
+        left: 0rem;
+        margin-left: -30px;
+        margin-top: 97rem;
+    }
+    .third-image{
+        left: 0rem;
+        margin-left: -30px;
+        margin-top: 97rem;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .tablet{
+        bottom: 40rem;
+        right: 1rem;
+    }
+    .first-image{
+        left: 0rem;
+        margin-left: -30px;
+        margin-top: 108rem;
+    }
+    .second-image{
+        left: 0rem;
+        margin-left: -30px;
+        margin-top: 108rem;
+    }
+    .third-image{
+        left: 0rem;
+        margin-left: -30px;
+        margin-top: 108rem;
+    }
+    .faqs-info {
+        padding: 0 60px;
+    }
+}
+
+@media screen and (max-width: 393px){
+    .tablet{
+        width: 304px;
+        height: 274px;
+        bottom: 45rem;
+        right: 1rem;
+    }
+    img{
+        width: 280px;
+        height: 250px;
+    }
+    .image-one{
+        width: 350px;
+        height: 250px;
+    }
+    .image-two{
+        width: 350px;
+        height: 250px;
+    }
+    .image-three{
+        width: 350px;
+        height: 250px;
+    }
+    .first-image{
+        left: 0rem;
+        margin-left: -55px;
+        margin-top: 110rem;
+    }
+    .second-image{
+        left: 0rem;
+        margin-left: -55px;
+        margin-top: 110rem;
+    }
+    .third-image{
+        left: 0rem;
+        margin-left: -55px;
+        margin-top: 110rem;
+    }
+    #mail{
+        width: 50vw;
+    }
+    .btn-contact{
+        width: 22vw;
+    }
+    .faqs-info {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header h1{
+        font-size: 25px;
+    }
+    .header p{
+        font-size: 14px;
+    }
+    .buttons a{
+        font-size: 10px;
+    }
+    .info h1{
+        font-size: 20px;
+    }
+    .info p{
+        font-size: 14px;
+    }
+    .info-one h2{
+        font-size: 20px;
+    }
+    .info-one p{
+        font-size: 12px;
+    }
+    .container {
+        padding: 0 4rem;
+    }
+    .tablet{
+        bottom: 45rem;
+        right: 1rem;
+    }
+    .first-image{
+        left: 0rem;
+        margin-left: -55px;
+        margin-top: 108rem;
+    }
+    .second-image{
+        left: 0rem;
+        margin-left: -55px;
+        margin-top: 108rem;
+    }
+    .third-image{
+        left: 0rem;
+        margin-left: -55px;
+        margin-top: 108rem;
+    }
+    .scrolls-info-default h2{
+        font-size: 20px;
+    }
+    .scrolls-info-one h2{
+        font-size: 20px;
+    }
+    .scrolls-info-two h2{
+        font-size: 20px;
+    }
+    .scrolls-info-one{
+        margin-left: 10px;
+    }
+    .scrolls-info-one p{
+        /* margin-left: 10px; */
+        font-size: 12px;
+    }
+    .scrolls-info-two{
+        margin-left: 10px;
+    }
+    .scrolls-info-two p{
+        /* margin-left: 10px; */
+        font-size: 12px;
+    }
+}
